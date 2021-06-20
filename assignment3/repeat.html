@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" http://www.w3.org/TR/xhtml11/DTD/xhtml1.dtd>
+<html xmlns = "http://www.w3.org/ xhtml" lang="EN" xml:lang="EN">
+<head>
+	<title>Assignment 2</title>
+	<link rel="stylesheet" type="text/css" href="bullets.css">		
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+			function draw()
+			{
+			var canvas = document.getElementById("myCanvas");
+			var ctx = canvas.getContext("2d");
+			ctx.fillStyle = "#FF0000";
+			ctx.fillRect(0, 0, 150, 75);
+			
+			}
+		</script>
+</head>
+<body style="background:black" link="purple">
+		<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;" onload="draw()"></canvas>
+</body>
+</html>

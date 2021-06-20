@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" http://www.w3.org/TR/xhtml11/DTD/xhtml1.dtd>
+<html xmlns = "http://www.w3.org/ xhtml" lang="EN" xml:lang="EN">
+<head>
+	<title>Assignment 2</title>
+
+	<link href="style.css" rel="stylesheet"> </link>
+</head>
+<body >
+<svg width="400" height="100">
+<rect width="400" height="100"
+style="fill:rgb(0,0,255);stroke
+width:10;stroke:rgb(0,0,0)" />
+</svg>
+
+<svg height="140" width="500">
+<ellipse cx="200" cy="80" rx="100" ry="50"
+style="fill:yellow;stroke:purple;stroke
+width:2" />
+</svg>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 150, 75);
+</script>
+
+</body>
+</html>

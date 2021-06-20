@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" http://www.w3.org/TR/xhtml11/DTD/xhtml1.dtd>
+<html xmlns = "http://www.w3.org/ xhtml" lang="EN" xml:lang="EN">
+<head>
+	<title>Assignment 2</title>
+	<link rel="stylesheet" type="text/css" href="bullets.css">		
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		p{
+			color: blue;
+			text-weight:normal;
+		}
+		div{
+			color:yellow;
+		}
+		.div3{
+			margin-top:0.3%;
+			border:2px solid;
+			margin-left:0.5%;
+		}
+		.div4{
+			height:100%;
+			width:100%;
+			float:left;
+			border:2px solid;
+		}
+		.div5{
+			margin-top:0.3%;
+			float:right;
+			border:2px solid;
+		}
+
+	</style>
+
+</head>
+<body style="background:black" link="purple">
+		<header style="color: yellow;">
+<h1>Assignment 3</h1>
+</header>
+<span style="float:left;height: 50%;width:29.5%" id="ss">
+
+	<div class="div4" >
+<center>
+<h1><p class="inset">XYZ</p></h1></center>
+	</div>
+</span>
+<span style="float:left;height: 50%;width:29.5%;margin-left:0.5%">
+	<div class="div5">
+		<canvas id="myCanvas" width="240" height="200" style="border:1px solid #d3d3d3;margin-top:8px;margin-left:40px;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  const img = new Image();
+  img.src = "image/list.jpg";
+  ctx.drawImage(img,0,0);
+}
+</script>
+	</div>
+	<div>
+	</div>
+</span>
+<span style="float:right;height: 50%;width:40.5%;">
+	<div class="div5">
+		<iframe src="image/pic.jpg" width="250" height="200" scrolling="no" frameborder="no" style="margin-top:15px;float:right"></iframe>
+		<iframe src="quote.html" width="250" height="200" scrolling="no" style="margin-top:15px;margin-right:10px;float:right;text:'fyfgfgf'"></iframe>
+		 
+	</div>
+</span>
+<div class="div3" style="height:30%;margin-left:10%">
+		 <p>Sunset is the time of day when our sky meets the outer space <strong>solar winds</strong>. There are blue, pink, and purple swirls, <strong>spinning</strong> and <strong>twisting</strong>, like clouds of balloons caught in a <strong>whirlwind</strong>. The sun moves slowly to hide behind the line of horizon, while the moon races to take its place in prominence atop the night sky. People slow to a crawl, entranced, fully forgetting the deeds that must still be done. There is a <strong>coolness</strong>, a <strong>calmness</strong>, when the sun does set.</p>
+	</div>
+</body>
+</html>
